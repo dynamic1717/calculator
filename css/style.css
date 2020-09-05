@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    position: relative;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 0px 75px 0px;
+    text-align: center;
+}
+
+.image {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.title {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.input {
+    margin-top: 30px;
+    width: 65%;
+    height: 30px;
+    font-size: 25px;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+    background-color: #dff5df;
+}
+
+.result {
+    text-align: right;
+    margin-right: 80px;
+    margin-top: 0;
+    margin-left: 60px;
+    font-size: 27px;
+}
+
+.table {
+    margin: 0 auto;
+    margin-top: 25px;
+    /* background: url(../img/calculator.png) center (center / cover) no-repeat; */
+}
+
+.table__td {
+    height: 74px;
+    min-width: 90px;
+    font-size: 30px;
+}
+
+.table__td:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    color: #f78121;
+    transition: all .2s ease-out;;
+}
+
+.table__td__calc {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.descr {
+    margin-top: 65px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.descr span {
+    font-size: 24px;
+    font-weight: bold;
+}

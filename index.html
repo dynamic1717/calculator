@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title" class="title">Simple Calculator</h1>
+        
+        <img src="img/calculator.png" alt="#" class="image">
+
+        <form class="form" action="#">
+            <input id="input" name="input" type="text" class="input">
+        </form>
+
+        <h2 id="result" class="result">Result is: </h2>
+
+        <table class="table">
+            <tr>
+                <td id="ac" class="table__td">AC</td>
+                <td id="c" class="table__td">C</td>
+                <td id="percent" class="table__td">%</td>
+                <td id="divide" class="table__td">/</td>
+            </tr>
+            <tr>
+                <td id="number7" class="table__td">7</td>
+                <td id="number8" class="table__td">8</td>
+                <td id="number9" class="table__td">9</td>
+                <td id="mult" class="table__td">*</td>
+            </tr>
+            <tr>
+                <td id="number4" class="table__td">4</td>
+                <td id="number5" class="table__td">5</td>
+                <td id="number6" class="table__td">6</td>
+                <td id="minus" class="table__td">-</td>
+            </tr>
+            <tr>
+                <td id="number1" class="table__td">1</td>
+                <td id="number2" class="table__td">2</td>
+                <td id="number3" class="table__td">3</td>
+                <td id="plus" class="table__td">+</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="number0" class="table__td">0</td>
+                <td id="dot" class="table__td">,</td>
+                <td id="calc" class="table__td table__td__calc">=</td>
+            </tr>
+        </table>
+        <div class="descr">
+            Click on the numbers or use the keyboard to enter numbers. <br>
+            To get a result click on <span>=</span> or on <span>Enter</span> button. <br>
+            For full cleaning use <span>AC</span> or <span>Esc</span>, <br>
+            for symbolic cleaning use <span>C</span> or <span>Backspace</span>.
+        </div>
+    </div>
+
+    <script src="js/calculator.js"></script>
+</body>
+</html>
