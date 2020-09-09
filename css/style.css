@@ -59,7 +59,6 @@ body {
 .table {
     margin: 0 auto;
     margin-top: 25px;
-    /* background: url(../img/calculator.png) center (center / cover) no-repeat; */
 }
 
 .table__td {
@@ -72,7 +71,7 @@ body {
     cursor: pointer;
     transform: scale(1.1, 1.1);
     color: #f78121;
-    transition: all .2s ease-out;;
+    transition: all .2s ease-out;
 }
 
 .table__td__calc {
