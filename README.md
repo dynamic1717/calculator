@@ -1,3 +1,4 @@
 Simple Calculator
+--
 
-http://f0457791.xsph.ru/calculator/
+https://dynamic1717-simple-calculator.netlify.app/
